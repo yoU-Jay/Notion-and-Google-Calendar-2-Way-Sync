@@ -17,11 +17,11 @@ database_id = os.getenv('DATABASE_ID') #get the mess of numbers before the "?" o
 
 urlRoot = os.getenv('URL_ROOT') #open up a task and then copy the URL root up to the "p="
 
-runScript = "python3 home/ec2-user/notion-sync/Notion-and-Google-Calendar-2-Way-Sync/GCalToken.py" #This is the command you will be feeding into the command prompt to run the GCalToken program
+runScript = "python3 /home/ec2-user/notion-sync/Notion-and-Google-Calendar-2-Way-Sync/GCalToken.py" #This is the command you will be feeding into the command prompt to run the GCalToken program
 
 #GCal Set Up Part
 
-credentialsLocation = "home/ec2-user/notion-sync/Notion-and-Google-Calendar-2-Way-Sync/token.pkl" #This is where you keep the pickle file that has the Google Calendar Credentials
+credentialsLocation = "/home/ec2-user/notion-sync/Notion-and-Google-Calendar-2-Way-Sync/token.pkl" #This is where you keep the pickle file that has the Google Calendar Credentials
 
 
 DEFAULT_EVENT_LENGTH = 30 #This is how many minutes the default event length is. Feel free to change it as you please
