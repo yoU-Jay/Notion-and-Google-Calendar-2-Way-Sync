@@ -17,4 +17,4 @@ export DATABASE_ID=$PARAM2_VALUE
 export NOTION_TOKEN=$PARAM3_VALUE
 export URL_ROOT=$PARAM4_VALUE
 
-echo "completed"
+echo "Environment Variables are set!"
