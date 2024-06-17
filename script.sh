@@ -57,5 +57,4 @@ else
     exit 1
 fi
 
-pip install -r requirements.txt
 python3 Notion-GCal-2WaySync-Public.py
