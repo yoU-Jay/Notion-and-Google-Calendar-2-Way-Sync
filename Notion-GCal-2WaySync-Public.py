@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import os
 from notion_client import Client
 from datetime import datetime, timedelta, date
@@ -61,7 +62,7 @@ DEFAULT_CALENDAR_NAME = 'Test'
 #the structure should be as follows:              WHAT_THE_OPTION_IN_NOTION_IS_CALLED : GCAL_CALENDAR_ID 
 calendarDictionary = {
     DEFAULT_CALENDAR_NAME : DEFAULT_CALENDAR_ID, 
-    'Test' : '9ce2d97152a79a3c81f0c8e863fd59bd2d3c277ae7e70c9672814b9d8636272a@group.calendar.google.com' #just typed some random ids but put the one for your calendars here
+    'Test' : os.getenv('DEFAULT_CALENDAR_ID') #just typed some random ids but put the one for your calendars here
     
 }
 
