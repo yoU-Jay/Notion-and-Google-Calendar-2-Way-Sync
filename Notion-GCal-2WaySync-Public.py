@@ -414,7 +414,7 @@ my_page = notion.databases.query(  #this query will return a dictionary that we 
                     {
                         "property": Date_Notion_Name, 
                         "date": {
-                            "next_week": {}
+                            "next_month": {}
                         }
                     }
                 ]   
@@ -599,7 +599,7 @@ my_page = notion.databases.query(
                     {
                         "property": Date_Notion_Name, 
                         "date": {
-                            "next_week": {}
+                            "next_month": {}
                         }
                     }
                 ]   
@@ -671,7 +671,7 @@ my_page = notion.databases.query(
                     {
                         "property": Date_Notion_Name, 
                         "date": {
-                            "next_week": {}
+                            "next_month": {}
                         }
                     }
                 ]   
@@ -831,7 +831,7 @@ my_page = notion.databases.query(
                     {
                         "property": Date_Notion_Name, 
                         "date": {
-                            "next_week": {}
+                            "next_month": {}
                         }
                     }
                 ]   
